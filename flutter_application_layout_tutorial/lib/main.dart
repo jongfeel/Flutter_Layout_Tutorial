@@ -17,10 +17,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text(title),
         ),
-        body: const Center(
-          child: Text(
-            'Hello World',
-            style: TextStyle(fontSize: 24),
+        body: const SingleChildScrollView(
+          child: Column(
+            children: [],
           ),
         ),
       ),
