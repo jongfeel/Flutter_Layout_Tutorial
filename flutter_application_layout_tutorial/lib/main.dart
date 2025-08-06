@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               TitleSection(name: 'Oeschinen Lake Compground', location: 'Kandersteg, Switzerland'),
+              ButtonSection()
             ],
           ),
         ),
